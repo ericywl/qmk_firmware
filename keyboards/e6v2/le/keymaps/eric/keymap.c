@@ -16,16 +16,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRNS, KC_PGUP, KC_UP,   KC_PGDN, KC_HOME, KC_AMPR,  KC_TILD, KC_TRNS, KC_TRNS,   KC_TRNS, KC_PSCR, KC_UP,   KC_DEL,  KC_BSPC,
       KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,  KC_ASTR,  KC_TRNS, KC_TRNS, KC_PGUP,   KC_HOME, KC_LEFT, KC_RGHT, KC_TRNS,
       KC_TRNS, KC_TRNS, KC_UNDS, KC_PLUS, KC_LPRN, KC_RPRN,  KC_PIPE, KC_TRNS, KC_TRNS,   KC_PGDN, KC_END,  KC_DOWN, KC_TRNS, KC_TRNS, KC_TRNS,
-      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS,                    KC_TRNS,   KC_TRNS, KC_TRNS, MO(2),   MO(2),   KC_TRNS
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS,                    KC_TRNS,   MO(2),   MO(2),   KC_TRNS, KC_TRNS, KC_TRNS
       ),
 
   /* Reset layer */
   [2] = LAYOUT(
       RESET,   KC_A,    KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+      RGB_TOG, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO, 
       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-      KC_NO,   KC_NO,   KC_NO,   KC_NO,            KC_NO,                      KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
+      KC_NO,   KC_NO,   KC_NO,   KC_NO,            KC_NO,                      KC_NO,     KC_TRNS, KC_TRNS,   KC_NO,   KC_NO,   KC_NO
       ),
 
 };
+
